@@ -103,7 +103,7 @@ builder.Services.AddSwaggerGen(opciones =>
     opciones.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
     {
         Version = "v1",
-        Title = "Biblopteca API - Hola, GitHub Actions",
+        Title = "Biblopteca API - Hola, GitHub Acciones",
         Description = "Este es un Web API para trabajar con datos de autores y libros",
         Contact = new Microsoft.OpenApi.Models.OpenApiContact
         {
