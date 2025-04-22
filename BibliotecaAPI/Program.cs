@@ -52,7 +52,7 @@ builder.Services.AddControllers(opciones =>
 //opciones.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
 
 builder.Services.AddDbContext<ApplicationDbContext>(opciones => 
-    opciones.UseSqlServer("name=DefaultConnection"));  //Cambie DefaultConnection por AzureStorageConnection para subir a Azure
+    opciones.UseSqlServer("name=AzureStorageConnection"));  //Cambie DefaultConnection por AzureStorageConnection para subir a Azure
 
 builder.Services.AddIdentityCore<Usuario>()
     .AddEntityFrameworkStores<ApplicationDbContext>()
